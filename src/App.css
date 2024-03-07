@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: black;
+  padding-top: 50px
+}
+
+h1, h3{
+  color: rgb(69, 104, 246);
+}
+
+tbody, thead{
+  color: #ffffff;
+}
+
+#input-label{
+  color: white;
+  margin-left: 40px;
+  padding: 8px;
+  background-color: rgba(25, 84, 235, 0.643);
+  border-radius: 5px;
+}
+
+.text-input{
+  border-radius: 20px;
+  border: none;
+  /* margin-left: 1rem; */
+}
+
+.input-group-text{
+  margin-right: 10px;
+  border:  1px solid rgb(69, 104, 246);
+  color: white;
+  background-color: black;
+}
+
+.custom-select{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.decrease-btn{
+  border: none;
+  /* background-color: rgba(255, 68, 0, 0.594); */
+  background-color: #AF2319;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.decrease-btn:hover{
+  border: none;
+  background-color: rgb(255, 68, 0);
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.increase-btn{
+  border: none;
+  /* background-color: rgba(127, 255, 212, 0.551); */
+  background-color: #4FAC5B;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.increase-btn:hover{
+  border: none;
+  background-color: rgb(127, 255, 212);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.delete-btn:hover{
+  cursor: pointer;
+  color: rgb(215, 73, 66);
+}
+
+#currency-select{
+  padding: 15px;
+  background-color: rgb(229, 225, 225);
+}
+
+#budget-input{
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 255, 0.299);
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+#save-btn{
+  border-radius: 5px;
+}
